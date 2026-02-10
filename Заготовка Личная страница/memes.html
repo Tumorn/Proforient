@@ -4,42 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My_personal_page</title>
-    <style>
-        @import url('fonts/main_font.css');
-
-        * {
-            /* Сбрасывание стандартных стилей и добавление шрифтов */
-            margin: 0;
-            font-family: 'StratosSkyeng', sans-serif;
-        }
-
-        .content {
-            /* Эти два свойства нужны чтобы фон подстраивался на весь экран */
-            background-size: cover;
-            min-height: 100vh;
-            /* Пиши свой код ниже */
-            
-        }
-
-
-        /* Класс для расположения элементов в 1 ряд */
-        .in-one-line {
-            display: flex;
-            /* Отступ между элементами */
-            gap: 32px;
-        }
-        
-        /* Класс для центрирования страницы */
-        .center {
-            padding-left: calc(50% - 500px);  
-            padding-right: calc(50% - 500px);
-        }
-    </style>
-</head>
+</head><link rel="stylesheet" href="style.css">
 <body>
     <div class="content">
-        <!-- Пиши свой код в этом блоке -->
+        <h1>Мои любимые мемы</h1>
+        <img src="./images/meme1.jpeg" alt="Гусь на кайфе" width="400">
+        <img src="./images/meme2.jpeg" alt="Кот типа не понимает чо происходит" width="400">
+        <img src="./images/meme3.png" alt="Собака устала и хочет отдыха" width="400">
+        <img src="./images/meme4.jpeg" alt="Ёж в шоках типа" width="400">
     </div>
-    <div class="in-one-line"></div> <!-- Используй этот блок чтобы расположить элементы в 1 ряд внутри этого блока -->
+    <div class="in-one-line center">
+        <a href="index.html">Главная</a>
+        <a href="facts.html">Факты</a>
+        <a href="memes.html">Мемы</a>
+        <a href="quotes.html">Цитаты</a>
+</div>
 </body>
 </html>
