@@ -1,0 +1,70 @@
+@import url('fonts/main_font.css');
+
+        * {
+            /* Сбрасывание стандартных стилей и добавление шрифтов */
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+            color: #333;
+        }
+
+        .content {
+            padding: 20px;
+            background-size: cover;
+            min-height: 100vh;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #f0f8ff;
+                    
+        /* Класс для центрирования страницы */
+        .center {
+            padding-left: calc(50% - 500px);  
+            padding-right: calc(50% - 500px);
+        }
+    }
+
+
+        /* Класс для расположения элементов в 1 ряд */
+        .in-one-line {
+            display: flex;
+            /* Отступ между элементами */
+            gap: 32px;
+        }
+
+        /* Стили для навигации */
+.in-one-line {
+    display: flex;
+    gap: 32px;
+    justify-content: center; /* Выравниваем кнопки по центру */
+    margin-top: 30px; /* Отступ сверху от основного контента */
+    padding: 15px;
+    background-color: #333; /* Тёмный фон для панели */
+}
+
+.in-one-line a {
+    color: white; /* Белый цвет текста ссылок */
+    text-decoration: none; /* Убираем подчёркивание */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px; /* Закругляем уголки кнопок */
+    transition: background-color 0.3s; /* Плавный эффект при наведении */
+}
+
+.in-one-line a:hover {
+    background-color: #555; /* Цвет фона ссылки при наведении */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #2c3e50; /* Более насыщенный цвет для заголовков */
+}
+
+p, ul, ol {
+    margin-bottom: 15px;
+    line-height: 1.5; /* Межстрочный интервал для удобства чтения */
+}
+
+img {
+    margin: 15px 0; /* Отступы сверху и снизу у картинок */
+    border-radius: 10px; /* Закруглим уголки у картинок */
+}

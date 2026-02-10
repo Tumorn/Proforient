@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_personal_page</title>
+    <style>
+        @import url('fonts/main_font.css');
+
+        * {
+            /* Сбрасывание стандартных стилей и добавление шрифтов */
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            /* Эти два свойства нужны чтобы фон подстраивался на весь экран */
+            background-size: cover;
+            min-height: 100vh;
+            /* Пиши свой код ниже */
+            
+        }
+
+
+        /* Класс для расположения элементов в 1 ряд */
+        .in-one-line {
+            display: flex;
+            /* Отступ между элементами */
+            gap: 32px;
+        }
+        
+        /* Класс для центрирования страницы */
+        .center {
+            padding-left: calc(50% - 500px);  
+            padding-right: calc(50% - 500px);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <!-- Пиши свой код в этом блоке -->
+    </div>
+    <div class="in-one-line"></div> <!-- Используй этот блок чтобы расположить элементы в 1 ряд внутри этого блока -->
+</body>
+</html>
